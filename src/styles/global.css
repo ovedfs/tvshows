@@ -1,0 +1,7 @@
+.card {
+  @apply bg-gray-100 rounded flex flex-col p-4;
+}
+
+.card h3 {
+  @apply text-2xl text-center font-bold py-2 text-sky-500;
+}

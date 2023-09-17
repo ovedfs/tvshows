@@ -1,0 +1,15 @@
+---
+import AppLayout from "../layouts/AppLayout.astro";
+---
+
+<AppLayout title="TV Series">
+	<div class="container border mx-auto mt-4 rounded-lg p-4">
+		<section class="flex justify-center">
+			<input type="search" class="input-search bg-slate-100 px-2 py-1 rounded-s-xl w-80 outline-none" placeholder="Ingresa una serie o pelicula...">
+			<button class="btn-search bg-sky-500 px-2 py-1 rounded-e-xl text-white hover:bg-sky-600">Buscar</button>
+		</section>
+		<section class="items grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 p-4 gap-4"></section>
+	</div>
+</AppLayout>
+
+<script src="../scripts/shows.js"></script>
